@@ -12,4 +12,4 @@ client.on('message', message => {
 });
 
 // THIS MUST BE THE WAY
-client.login(process.env.BOT_TOKEN):
+client.login(process.env.B0T_T0KEN):
