@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "ocean.js",
   "scripts": {
-    "start": "node ocean.js"
+    "start": "node oceanbot.js"
   },
   "dependencies": {
   "discord.js": "11.1.0",
