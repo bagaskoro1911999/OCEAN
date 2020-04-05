@@ -1,8 +1,6 @@
 const {Client, Attachment} = require('discord.js')
 const bot = new Client();
 
-const BOT_TOKEN = "Njk1OTM3NDU0OTkzMTc4NjI0.Xokb_w.rw5BfVzFG0mTB45F49bcqgFZZio";
-
 const prefix = '!';
 
 var version ='1.0.1';
@@ -29,14 +27,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
