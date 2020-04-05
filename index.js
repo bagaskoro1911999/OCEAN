@@ -6,4 +6,4 @@ let options = {
 }
 
 const client = new Client(options);
-client.run();
+client.run('OCEANRP');
