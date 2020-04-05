@@ -1,15 +1,15 @@
 {
-    "name": "discord-bot",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "node ." : "node run index.js"
-    },
-    "author": "Alesh",
-    "license": "ISC",
-    "dependencies": {
-      "discord.js": "^11.4.2"
-    }
+  "name": "oceanrpbot",
+  "version": "1.0.0",
+  "description": "server bot!",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrSlimeDudMan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.1.1"
   }
+}
+
